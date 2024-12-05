@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Define o tipo de documento como HTML5 -->
+    <meta charset="UTF-8" /> <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Garante compatibilidade com versões antigas do IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Torna a página responsiva em dispositivos móveis -->
+    <title>Login</title> <!-- Título da página -->
+    <link rel="stylesheet" href="CSS/style-login.css" /> <!-- Vincula o arquivo CSS externo para estilização -->
+  </head>
+  <body>
+ 
+    
+    <div vw class="enabled"> <!-- Inicio da Div do botao de Libras  -->
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script><!--Script do libras  -->
+
+    <main>
+      <div class="box"> <!-- Div principal que contém toda a estrutura do formulário -->
+        <div class="inner-box"> <!-- Uma camada interna para organização do layout -->
+          <div class="forms-wrap"> <!-- Contêiner para os formulários de login e cadastro -->
+            
+            <!-- Formulário de Login -->
+            <form action="index.html" autocomplete="off" class="sign-in-form">
+              
+              <!-- Logo da página -->
+              <div class="logo">
+                <!-- Link para a página inicial com uma imagem de logo -->
+                <a href="homepage.html"><img src="imglogin/logovaso.PNG" alt="easyclass" />
+              </div>
+
+              <!-- Cabeçalho do formulário de login -->
+              <div class="heading">
+                <h2>Bem-vindo de Volta!</h2> <!-- Texto amigável de boas-vindas -->
+                <h6>Ainda não está cadastrado?</h6> <!-- Pergunta para usuários que ainda não têm conta -->
+                <a href="#" class="toggle">Inscrever-se</a> <!-- Link para alternar entre as abas de login e cadastro -->
+              </div>
+
+              <!-- Corpo do formulário de login -->
+              <div class="actual-form">
+                
+                <!-- Campo de nome de usuário -->
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Nome</label> <!-- Rótulo do campo de nome -->
+                </div>
+
+                <!-- Campo de senha -->
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Senha</label> <!-- Rótulo do campo de senha -->
+                </div>
+
+                <!-- Botão de envio do formulário de login -->
+                <input type="submit" value="Sign In" class="sign-btn" />
+
+                <!-- Link para recuperar senha ou dados de login -->
+                <p class="text">
+                  Esqueceu sua senha ou seus dados de login?
+                  <a href="#">Obter ajuda</a>
+                </p>
+              </div>
+            </form>
+
+            <!-- Formulário de Cadastro -->
+            <form action="processa_formulario.php" method="POST" autocomplete="off" class="sign-up-form">
+              
+              <!-- Logo da página (repetido no formulário de cadastro) -->
+              <div class="logo">
+                <a href="homepage.html"><img src="imglogin/logovaso.PNG" alt="easyclass" />
+              </div>
+          
+              <!-- Cabeçalho do formulário de cadastro -->
+              <div class="heading">
+                  <h2>Pré-Cadastro</h2> <!-- Título do formulário de cadastro -->
+                  <h6>Já tem uma conta?</h6> <!-- Texto que questiona se o usuário já possui conta -->
+                  <a href="#" class="toggle">Entrar</a> <!-- Link para alternar de volta ao formulário de login -->
+              </div>
+          
+              <!-- Corpo do formulário de cadastro -->
+              <div class="actual-form">
+                  <!-- Campo de nome -->
+                  <div class="input-wrap">
+                      <input
+                          type="text"
+                          name="nome"
+                          minlength="4"
+                          class="input-field"
+                          autocomplete="off"
+                          required
+                      />
+                      <label>Nome</label> <!-- Rótulo do campo de nome -->
+                  </div>
+          
+                  <!-- Campo de email -->
+                  <div class="input-wrap">
+                      <input
+                          type="email"
+                          name="email"
+                          class="input-field"
+                          autocomplete="off"
+                          required
+                      />
+                      <label>Email</label> <!-- Rótulo do campo de email -->
+                  </div>
+          
+                  <!-- Campo de senha -->
+                  <div class="input-wrap">
+                      <input
+                          type="password"
+                          name="senha"
+                          minlength="4"
+                          class="input-field"
+                          autocomplete="off"
+                          required
+                      />
+                      <label>Senha</label> <!-- Rótulo do campo de senha -->
+                  </div>
+          
+                  <!-- Botão de envio do formulário de cadastro -->
+                  <input type="submit" value="Sign Up" class="sign-btn" />
+          
+                  <!-- Termos de serviço e política de privacidade -->
+                  <p class="text">
+                      Ao me inscrever, concordo com os
+                      <a href="#">Termos de Serviço</a> e
+                      <a href="#">Política de Privacidade</a>
+                  </p>
+              </div>
+          </form>
+          
+          </div>
+
+          <!-- Seção da imagem em carrossel -->
+          <div class="carousel">
+            <div class="images-wrapper">
+              <!-- Imagens do carrossel -->
+              <img src="imglogin/imagem.login.png" class="image img-1 show" alt="" />
+              <img src="imglogin/rendalogin.png" class="image img-2" alt="" />
+              <img src="imglogin/mesalogin.png" class="image img-3" alt="" />
+            </div>
+
+            <!-- Textos que acompanham as imagens do carrossel -->
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Siô é o Maranhão</h2> <!-- Primeira frase do carrossel -->
+                  <h2>Venha dá um UP</h2> <!-- Segunda frase do carrossel -->
+                  <h2>Seu canto com arte</h2> <!-- Terceira frase do carrossel -->
+                </div>
+              </div>
+
+              <!-- Controle para alternar as imagens do carrossel -->
+              <div class="bullets">
+                <span class="active" data-value="1"></span> <!-- Primeira bolinha ativa -->
+                <span data-value="2"></span> <!-- Segunda bolinha -->
+                <span data-value="3"></span> <!-- Terceira bolinha -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Importa o arquivo de JavaScript -->
+    <script src="javascript/script-login.js"></script>
+  </body>
+</html>

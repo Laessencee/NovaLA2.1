@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Configura a viewport para garantir que a página seja responsiva -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"><!-- ícones Remixicon de "check" usados na parte de planos do site-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><!--Llink dos icon de menu-->
+    <link rel="stylesheet" href="CSS/style-sobrenos.css"> <!-- Inclui a folha de estilos personalizada para a página -->
+    <title>SOBRE NÓS</title>
+
+</head>
+
+<body>
+
+    <div vw class="enabled"> <!-- Inicio da Div do botao de Libras  -->
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script><!--Script do libras  -->
+     
+    <nav> <!-- Menu de Navegação -->
+        
+        <div class="logo"><!-- Seção do logo do site -->
+        <!-- O logo geralmente leva o usuário de volta para a página inicial -->
+            <img src="imghome/logovaso.PNG">
+        
+        </div>
+        <ul> 
+            <li><a href="#skills">Artesanato </a></li> <!-- Link para a seção de Artesanato -->
+            <li><a href="#about">Eventos</a></li><!-- Link para a seção de Eventos -->
+            <li><a href="./laessence/loja.html">Loja</a></li>
+            <li><a href="homepage.html">Home</a></li>
+        </ul>
+        <button><a href="login.html">Login</a></button> <!-- Botão de login que direciona para a página de login -->
+
+        <button id="menuButton" onclick="openMenu()"> <!-- O evento onclick chama a função openMenu() para exibir o menu -->
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+    
+ <!-- Seção de Cabeçalho -->
+    <header class="container">
+        <div class="content">
+
+            <H1>Sobre Nós</H1><!-- Título da seção "Sobre Nós" -->
+            <p>
+                No coração do Maranhão, cada peça de artesanato carrega as histórias de gerações, refletindo a alma 
+                e a rica cultura local. Na La Essence, nossa missão não é apenas preservar essa herança; é impulsioná-la para o futuro,
+                 oferecendo uma plataforma onde artesãs locais podem compartilhar suas criações e talentos com o mundo.<br>
+
+                Estamos comprometidos com o comércio justo e sustentável, e temos uma equipe especializada pronta para levar o seu negócio a novos
+                 patamares. Ao assinar um de nossos planos, você não só apoia o artesanato local, mas também transforma seu negócio, conectando-se com
+                  um público global que valoriza a autenticidade e o impacto social.<br>
+                  Junte-se à La Essence e veja suas vendas crescerem ao lado de uma comunidade que respeita o verdadeiro valor das tradições.
+                 Amplie a visibilidade do seu artesanato e faça parte de um movimento que valoriza o autêntico e sustentável!
+            </p>
+        </div>
+        <div class="image">  <!-- Esta imagem principal da seção "Sobre Nós" -->
+            <img src="imgsobre/fundoLA.png">
+        </div>
+    </header>
+
+    <section class="container">
+        <h2 class="header">Serviços</h2><!-- Seção de serviços -->
+        <p class="sub-header">
+           Venha conhecer nossos principais serviços
+        </p>
+        <div class="features">
+             <!-- Serviço 1: Consultoria Estratégica -->
+            <div class="card">
+                <span><img class="icon" src="imgsobre/estrategia.png" alt="estrategia"></span>
+                <h4>Consultoria Estratégica</h4>
+                <p>
+                Orientação sobre planejamento estratégico, definição de metas e objetivos, e implementação de planos de ação.
+                </p>
+                
+            </div>
+            <!-- Serviço 2: Desenvolvimento de Negócios -->
+            <div class="card">
+                <span><img class="icon" src="imgsobre/confiar.png" alt="negocio"></span>
+                <h4>Desenvolvimento de Negócios</h4>
+                <p>
+                    Identificação de oportunidades de mercado, criação de estratégias de crescimento e expansão, e suporte na captação de investimentos.
+                </p>
+               
+            </div>
+             <!-- Serviço 3: Marketing e Comunicação -->
+            <div class="card">
+                <span><img class="icon" src="imgsobre/marketing-digital.png" alt="marketing"></span>
+                <h4>Marketing e Comunicação</h4>
+                <p>
+                    Elaboração de estratégias de marketing, criação e gestão de campanhas publicitárias, fortalecimento da marca (branding) e criação de planos de comunicação.
+                </p>
+                
+            </div>
+          </div>
+    </section>
+
+    <section class="container2"> <!-- Nosso Time -->
+        <h2 class="header">Nosso Time</h2>
+        <p class="sub-header">Venha conhecer o time LAESSENCE</p>
+        <div class="features1">  <!-- Seção que configura os quatros cartões da primeira fileira-->
+             <!-- Primeiro cartão: Nykollas Estevão -->
+            <div class="cardtime">
+                <div class="card__border">
+                    <img src="imgsobre/nykollas.jpg" alt="card image" class="card__img">
+                </div>
+                <h3 class="card__name">Nykollas Estevão</h3>
+                <span class="card__profession">Scrum Master<br>Programdor</span>
+                <div class="card__social">
+                    <div class="card__social-control">
+                        <div class="card__social-toggle">
+                            <i class="ri-add-line"></i>
+                        </div>
+                        <span class="card__social-text">Minhas redes sociais</span>
+                        <ul class="card__social-list">
+                            <a href="https://www.github.com/" target="_blank" class="card__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/nyykollass" target="_blank" class="card__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Segundo cartão: Nathaly Mota -->
+            <div class="cardtime">
+                <div class="card__border">
+                    <img src="imgsobre/nathaly.jpg" alt="card image" class="card__img">
+                </div>
+                <h3 class="card__name">Nathaly Mota</h3>
+                <span class="card__profession">UI Designer<br>Programdora</span>
+                <div class="card__social">
+                    <div class="card__social-control">
+                        <div class="card__social-toggle">
+                            <i class="ri-add-line"></i>
+                        </div>
+                        <span class="card__social-text">Minhas redes sociais</span>
+                        <ul class="card__social-list">
+                            <a href="https://www.github.com/" target="_blank" class="card__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/_nathaly.m" target="_blank" class="card__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             <!-- Terceiro cartão: Maria Neves -->
+            <div class="cardtime">
+                <div class="card__border">
+                    <img src="imgsobre/madu.jpg" alt="card image" class="card__img">
+                </div>
+                <h3 class="card__name">Maria E. Neves</h3>
+                <span class="card__profession">UX Designer<br>Programdora</span>
+                <div class="card__social">
+                    <div class="card__social-control">
+                        <div class="card__social-toggle">
+                            <i class="ri-add-line"></i>
+                        </div>
+                        <span class="card__social-text">Minhas redes sociais</span>
+                        <ul class="card__social-list">
+                            <a href="https://www.github.com/" target="_blank" class="card__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/itsmeduda" target="_blank" class="card__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             <!-- Quarto cartão: Breno Demozzi -->
+            <div class="cardtime">
+                <div class="card__border">
+                    <img src="imgsobre/breno.jpg" alt="card image" class="card__img">
+                </div>
+                <h3 class="card__name">Breno Demozzi</h3>
+                <span class="card__profession">Produtor de Audiovisual<br>Programdor</span>
+                <div class="card__social">
+                    <div class="card__social-control">
+                        <div class="card__social-toggle">
+                            <i class="ri-add-line"></i>
+                        </div>
+                        <span class="card__social-text">Minhas redes sociais</span>
+                        <ul class="card__social-list">
+                            <a href="https://www.github.com/" target="_blank" class="card__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/brenodemozzi" target="_blank" class="card__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fim da seção que configura os quatros cartões da primeira fileira-->
+        <div class="features1"> <!-- Seção que configura os quatros cartões da segunda fileira-->
+            <!-- Quinto cartão: Thayanne Rocha -->
+            <div class="cardtime">
+                <div class="card__border">
+                    <img src="imgsobre/thayanne.jpg" alt="card image" class="card__img">
+                </div>
+                <h3 class="card__name">Thayanne Rocha</h3>
+                <span class="card__profession">Programadora<br>Designer de Interatividade</span>
+                <div class="card__social">
+                    <div class="card__social-control">
+                        <div class="card__social-toggle">
+                            <i class="ri-add-line"></i>
+                        </div>
+                        <span class="card__social-text">Minhas redes sociais</span>
+                        <ul class="card__social-list">
+                            <a href="https://www.github.com/" target="_blank" class="card__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/g4bxt" target="_blank" class="card__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Sexto cartão: Maria Gomes -->
+            <div class="cardtime">
+                <div class="card__border">
+                    <img src="imgsobre/duda.jpg" alt="card image" class="card__img">
+                </div>
+                <h3 class="card__name">Maria E. Gomes</h3>
+                <span class="card__profession">Coordenadora de Pesquisa<br>Programdora</span>
+                <div class="card__social">
+                    <div class="card__social-control">
+                        <div class="card__social-toggle">
+                            <i class="ri-add-line"></i>
+                        </div>
+                        <span class="card__social-text">Minhas redes sociais</span>
+                        <ul class="card__social-list">
+                            <a href="https://www.github.com/" target="_blank" class="card__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/ik0cript" target="_blank" class="card__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <!-- Sétimo cartão: Carliane Oliveira -->
+            <div class="cardtime">
+                <div class="card__border">
+                    <img src="imgsobre/carli.jpg" alt="card image" class="card__img">
+                </div>
+                <h3 class="card__name">Carliane Oliveira</h3>
+                <span class="card__profession">Estrategista de Tendências<br>Programdora</span>
+                <div class="card__social">
+                    <div class="card__social-control">
+                        <div class="card__social-toggle">
+                            <i class="ri-add-line"></i>
+                        </div>
+                        <span class="card__social-text">Minhas redes sociais</span>
+                        <ul class="card__social-list">
+                            <a href="https://www.github.com/" target="_blank" class="card__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="card__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Oitavo cartão: Josielson Amaral -->
+            <div class="cardtime">
+                <div class="card__border">
+                    <img src="imgsobre/josi.jpg" alt="card image" class="card__img">
+                </div>
+                <h3 class="card__name">Josielson Amaral</h3>
+                <span class="card__profession">Gerente de Inclusão<br>Programdor</span>
+                <div class="card__social">
+                    <div class="card__social-control">
+                        <div class="card__social-toggle">
+                            <i class="ri-add-line"></i>
+                        </div>
+                        <span class="card__social-text">Minhas redes sociais</span>
+                        <ul class="card__social-list">
+                            <a href="https://www.github.com/" target="_blank" class="card__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="card__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Fim da seção que configura os quatros cartões da segunda fileira-->
+    </section>
+    <script src="javascript/script-redesociais.js"></script>
+    
+
+   <!-- Rodapé -->
+<footer class="container">
+    <div class="column">
+        <div class="logo">
+            <img src="imghome/logovaso.PNG">
+        </div>
+        <p>
+            Todo artesanato tem sua essência.
+        </p>
+        <!-- Links para redes sociais -->
+        <div class="socials">
+            <a href="#"><i class="ri-youtube-line"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-line"></i></a>
+        </div>
+    </div>
+    
+    <!-- Links de navegação -->
+    <div class="column">
+        <h4>Navegação</h4>
+        <a href="#">Artesanato</a>
+        <a href="#">Eventos</a>
+        <a href="#">Loja</a>
+        <a href="homepage.html">Home</a>
+    </div>
+
+    <!-- Informações de contato -->
+    <div class="column">
+        <h4>Contatos</h4>
+        <a href="#">Entre em contato</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos e Transmissão</a>
+    </div>
+</footer>
+
+<!-- Seção de direitos autorais -->
+<div class="copyright">
+    LAESSENCE © 2024 La Essence. Todos os direitos reservados.
+</div>
+
+
+
+    <script src="javascript/script-home-sobrenos.js"></script>
+</body>
+
+</html>

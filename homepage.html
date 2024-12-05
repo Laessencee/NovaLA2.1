@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Configura a viewport para garantir que a página seja responsiva -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"><!-- ícones Remixicon de "check" usados na parte de planos do site-->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><!--Llink dos icons de estrela da parte de feedback e do icon de menu -->
+
+    <link rel="stylesheet" href="CSS/style-home.css"><!-- Inclui a folha de estilos personalizada para a página -->
+
+    <title>LA ESSENCE</title> <!-- Título da página -->
+</head>
+
+<body>
+
+    <div vw class="enabled"><!-- Inicio da Div do botao de Libras  -->
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script> <!--Script do libras  -->
+
+    <nav><!-- INICIO: Tag que representa a barra de navegação do site  -->
+
+        <div class="logo"> <!--INICIO da div que adiciona a logo e determina a sua classe no CSS -->
+            <img src="imghome/logovaso.PNG">
+        </div> <!--FIM da div que adiciona a logo e determina a sua classe no CSS -->
+
+        <ul> 
+            <!-- Lista de navegação -->
+            <li><a href="#">Artesanato </a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="./laessence/loja.php">Loja</a></li>
+            <li><a href="sobrenos.html">Sobre Nós</a></li>
+        </ul>
+
+        <button><a href="login.html">Login</a></button> <!-- Botão de login que direciona para a página de login -->
+
+        <button id="menuButton" onclick="openMenu()"><!-- Botão de menu para abrir o menu de navegação em dispositivos móveis -->
+            <i class='bx bx-menu'></i> <!-- Ícone de menu em dispositivos móveis -->
+        </button>
+    </nav> <!-- FIM: Tag que representa a barra de navegação do site  -->
+    
+
+    <header class="container"> <!-- Seção de cabeçalho -->
+        <div class="content">  <!-- INICIO: Da div class content que configura o conteúdo do cabeçalho no CSS -->
+        
+            <H1>Voz silenciosa
+do coração, que fala através das
+                    mãos</H1> <!-- Título principal -->
+
+            <p> <!-- Mini descrição da empresa -->
+                Quer transformar seu negócio e aumentar suas vendas?<br>
+                 A La Essence é a solução para você.
+            </p>
+
+            <a href="sobrenos.html" class="btn">Saiba Mais</a> <!-- Botão para saber mais -->
+
+        </div> <!-- FIM: Da div class content que configura o conteúdo do cabeçalho no CSS -->
+
+        <div class="image"> <!-- INICIO: Da div class image que configura a imagem principal do cabeçalho no CSS -->
+            <img src="imghome/principalimagem.PNG"> <!-- Imagem principal -->
+        </div> <!-- FIM: Da div class image que configura a imagem principal do cabeçalho no CSS -->
+
+    </header><!-- FIM da Seção de cabeçalho -->
+
+    <section class="container">  <!-- INICIO: Da  1 Seção de conteúdo configurada no CSS através da class container-->
+        <h2 class="header">Conheça nossa MVV</h2> <!-- Título da seção -->
+        <p class="sub-header"> <!-- Subtítulo da seção -->
+            Uma MVV bem definida é essencial para inspirar, alinhar e guiar os colaboradores,
+            além de estabelecer o propósito e os princípios fundamentais da empresa.
+        </p>
+        <div class="features"> <!-- div class features que configura os cartões dentro da seção-->
+            <div class="card"> <!-- 1 Cartão individual -->
+                <img class="icon" src="imghome/missao.png" alt="alvo">
+                <h4>MISSÃO</h4>
+                <p>
+                    Fornecer consultoria estratégica de alta qualidade para empresas de pequeno e médio porte.
+                </p>
+                
+            </div>
+            <div class="card"> <!-- 2 Cartão individual -->
+                <img class="icon" src="imghome/visao.png" alt="alvo">
+                <h4>VISÃO</h4>
+                <p>
+                    Acreditamos no poder da consultoria estratégica para impulsionar o crescimento sustentável.
+                </p>
+               
+            </div>
+            <div class="card"> <!-- 3 Cartão individual -->
+                <img class="icon" src="imghome/diamante.png" alt="alvo">
+                <h4>VALORES</h4>
+                <p>
+                    Buscamos excelência, inovação e integridade, promovendo uma cultura de colaboração e compromisso com o cliente.
+                </p>
+                
+            </div>
+    </section> <!-- FIM: Da  1 Seção de conteúdo configurada no CSS através da class container-->
+
+    <section class="container"> <!-- INICIO: Da  2 Seção de conteúdo configurada no CSS através da class container-->
+        <h2 class="header">Planos de Consultoria</h2>
+        <p class="sub-header">
+            Venha conhecer nossos principais planos para alavancar seu negócio
+        </p> <!-- Subtítulo da seção -->
+
+        <div class="pricing"> <!-- Contêiner para os cartões de preços -->
+            <div class="card">
+                <div class="content">
+                    <h4>Plano Básico</h4> <!-- Título do plano 1 -->
+                    <h3>R$50</h3> <!-- Preço do plano -->
+                    <p> <!-- Descrição dos benefícios incluídos no plano -->
+                        <i class="ri-checkbox-circle-line"></i>  <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.
+                        Usada para renderizar um ícone de marca de seleção dentro de um círculo, e a aparência desse ícone é fornecida pela biblioteca Remixicon, -->
+                        
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i> <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.-->
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn">Acessar Agora</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Ouro Plano</h4> <!-- Título do plano 2 -->
+                    <h3>R$80</h3><!-- Preço do plano -->
+                    <p> <!-- Descrição dos benefícios incluídos no plano -->
+                        <i class="ri-checkbox-circle-line"></i>  <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.-->
+                        Pro codes
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i> <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.-->
+                        Smart coding plan
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i> <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.-->
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn">Acessar Agora</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Plano Diamante</h4> <!-- Nome do plano 3 -->
+                    <h3>R$180</h3> <!-- Preço do plano -->
+
+                    <p> <!-- Descrição dos benefícios incluídos no plano -->
+                        <i class="ri-checkbox-circle-line"></i>  <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.-->
+                        Elite Classes & Courses
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>  <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.-->
+                        Pro codes
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i> <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.-->
+                        Personal Coaching
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i> <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.-->
+                        Smart coding plan
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i> <!-- tag <i> exibe o ícone 'check'. A classe ri-checkbox-circle-line pertence à biblioteca de ícones Remixicon.-->
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn">Acessar Agora</button>
+            </div>
+        </div>
+    </section> <!-- FIM: Da  2 Seção de conteúdo configurada no CSS através da class container-->
+
+
+    <div class="feedback" id="feedback">  <!-- Div class de feedback dos clientes -->
+        <section class="container1"> <!-- Seção de feedback dos clientes configurada pela class container1 -->
+            <h2 class="header">Feedback's dos nossos clientes</h2>
+        </section>
+        
+        <div class="customers"><!-- Div para agrupar os feedbacks dos clientes -->
+            <div class="item"> <!-- Agrupar todos os itens relacionadas ao cliente e seu testemunho --> 
+                <div class="rating"> <!-- representar um sistema de classificação, class usada para configura espaçamento, alinhamento, etc das estrelas no CSS --> 
+                    <i class='bx bxs-star'></i> <!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i> <!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i> <!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i> <!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i> <!-- icon de estrela do feedbacks dos clientes -->
+                </div>
+                <p><!-- Feedback do cliente -->
+                    Aqui eu tive o auxílio necessário para entender em que mercado eu estava inserido e como alcançar o público que tanto queria.
+                </p>
+                <div class="user"> <!-- é usada para agrupar elementos que representam o cliente e configura no CSS a foto do usuário e informações relacionadas, como nome e profissão. --> 
+                    <img src="imghome/us-1.jpg"> <!-- Foto do cliente -->
+                    <div class="info"> <!-- Agrupar informações relacionadas ao cliente --> 
+                        <h5>Paulo Russo</h5> <!-- Nome do cliente -->
+                        <p>Ceramista</p> <!-- Especialidade do cliente -->
+                    </div>
+                </div>
+            </div>
+            <div class="item"> <!-- Agrupar todos os itens relacionadas ao cliente e seu testemunho --> 
+                <div class="rating"><!-- representar um sistema de classificação, class usada para configura espaçamento, alinhamento, etc das estrelas no CSS --> 
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                </div>
+                <p> <!-- Feedback do cliente -->
+                    É incrível como a internet pode me conectar ainda mais com alguns colegas de trabalho por meio da La Essence.
+                     Uma verdadeira teia de ideias.
+                </p>
+                <div class="user"> <!-- é usada para agrupar elementos que representam o cliente e configura no CSS a foto do usuário e informações relacionadas, como nome e profissão. --> 
+                    <img src="imghome/us-2.jpg"><!-- Foto do cliente -->
+                    <div class="info"><!-- Agrupar informações relacionadas ao cliente --> 
+                        <h5>Katarina Oliveira</h5> <!-- Nome do cliente -->
+                        <p>Escultora</p> <!-- Especialidade do cliente -->
+                    </div>
+                </div>
+            </div>
+            <div class="item"><!-- Agrupar todos os itens relacionadas ao cliente e seu testemunho --> 
+                <div class="rating"><!-- representar um sistema de classificação, class usada para configura espaçamento, alinhamento, etc das estrelas no CSS --> 
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                    <i class='bx bxs-star'></i><!-- icon de estrela do feedbacks dos clientes -->
+                </div>
+                <p> <!-- Feedback do cliente -->
+                    A La Essence veio para trazer um olhar mais particular aos artesãos da Grande Ilha. 
+                    O site é bem completo e traz uma identidade bem legal.
+                </p>
+                <div class="user"> <!-- é usada para agrupar elementos que representam o cliente e configura no CSS a foto do usuário e informações relacionadas, como nome e profissão. --> 
+                    <img src="imghome/us-3.jpg"> <!-- Foto do cliente -->
+                    <div class="info"> <!-- Agrupar informações relacionadas ao cliente e seu testemunho --> 
+                        <h5>Marcos Augusto</h5> <!-- Nome do cliente -->
+                        <p>Artesão</p><!-- Especialidade do cliente -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- FIM da Div class de feedback dos clientes -->
+
+
+    <footer class="container">
+        
+        <div class="column">
+            <div class="logo">
+                <img src="imghome/logovaso.PNG">
+            </div>
+            <p>
+                Todo artesanato tem sua essência.
+            </p>
+            <div class="socials">
+                <a href="#"><i class="ri-youtube-line"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-twitter-line"></i></a>
+            </div>
+        </div>
+        <div class="column">
+            <h4>Navegação</h4>
+            <a href="#">Artesanato</a>
+            <a href="#">Eventos</a>
+            <a href="#">Loja</a>
+            <a href="sobrenos.html">Sobre Nós</a>
+        </div>
+        <br>
+        <div class="column">
+            <h4>Contatos</h4>
+            <a href="#">Entre em contato</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Transmissão</a>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        LAESSENCE © 2024 La Essence.Todos os direitos revervados.
+    </div>
+
+
+    <script src="javascript/script-home-sobrenos.js"></script>
+</body>
+
+</html>
